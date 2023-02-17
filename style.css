@@ -1,0 +1,75 @@
+*{
+    font-family: 'Courier New', Courier;
+    margin: auto;
+    padding: auto;
+}
+
+h3{
+    color: white;
+    font-size: 12pt;
+}
+
+.contenedor-pokemones{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 100px;
+    width: 200px;
+}
+
+.contenedor-bulbasaur{
+    background-color: aqua;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+.contenedor-bulbasaur:hover{
+    cursor: pointer;
+    background-color: aquamarine;
+}
+
+.contenedor-bulbasaur img, .contenedor-charmander img, .contenedor-squirtle img{
+    width: 80px;
+    margin: 20px 50px 20px 50px;
+}
+
+.contenedor-bulbasaur div, .contenedor-charmander div, .contenedor-squirtle div{
+    display: grid;
+    grid-row: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px 5px 25px 5px;
+}
+
+.contenedor-charmander{
+    background-color: orange;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+.contenedor-charmander:hover{
+    cursor: pointer;
+    background-color: orangered;
+}
+
+.contenedor-squirtle{
+    background-color: gold;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+.contenedor-squirtle:hover{
+    cursor: pointer;
+    background-color: goldenrod;
+}
